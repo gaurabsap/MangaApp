@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     const CallApi = async () => {
       const req = await axios.get(
-        `https://manga-api.onrender.com/api/v1/manga/search/${name}`
+        `https://manga-api-awnd.onrender.com/api/v1/manga/search/${name}`
       );
       // console.log(req);
       setData(req.data.data.results);
