@@ -18,7 +18,7 @@ const Image = (): JSX.Element => {
   useEffect(() => {
     const callApi = async (): Promise<void> => {
       const response = await axios.get(
-        `http://127.0.0.1:3000/api/v1/manga/pages?chapterId=${id}`
+        `https://manga-api.onrender.com/api/v1/manga/pages?chapterId=${id}`
       );
       console.log(response);
       setData(response.data.data);
