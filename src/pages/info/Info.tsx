@@ -23,7 +23,7 @@ const Info = (): JSX.Element => {
   useEffect(() => {
     const CallApi = async (): Promise<void> => {
       const req = await axios.get(
-        `https://manga-api.onrender.com/api/v1/manga/info?infoId=${id}`
+        `https://manga-api-awnd.onrender.com/api/v1/manga/info?infoId=${id}`
       );
       setData([req.data.data]);
     };
