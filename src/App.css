@@ -1,0 +1,40 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  margin: 2rem;
+}
+
+a {
+  /* margin: 1rem; */
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: aliceblue;
+}
+a:hover {
+  color: red;
+  background-color: beige;
+}
+
+input {
+  padding: 1rem;
+  outline: none;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
