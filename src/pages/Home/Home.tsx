@@ -26,7 +26,7 @@ function Home() {
         <div className="data">
           {data &&
             data.map((dat, i) => {
-              const { id, title, genre } = dat;
+              const { id, title, image, genre } = dat;
               return (
                 <div className="main_datas" key={i}>
                     <h1>{title}</h1>
