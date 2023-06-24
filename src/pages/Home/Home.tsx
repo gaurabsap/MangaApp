@@ -29,10 +29,10 @@ function Home() {
               const { id, title, genre } = dat;
               return (
                 <div className="main_datas" key={i}>
-                  <Link to={`/mangainfo?infoid=${id}`}>
                     <h1>{title}</h1>
-                    {/* <img src={image} alt={id} />
-                     */}
+                  <Link to={`/mangainfo?infoid=${id}`}>
+                    <img src={image} alt={id} />
+                    
                   </Link>
                   <p>{genre}</p>
                 </div>
